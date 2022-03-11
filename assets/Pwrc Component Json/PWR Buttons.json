@@ -1,0 +1,15 @@
+{
+    "introduction":"This component is used for storing information of Buttons configuration.",
+    "data":
+         {
+            "test": "test",
+            "test1": "test1",
+            "test2": "test2"
+          },
+    "images": [
+      "assets/PwrComponentImages/PWR Buttons/Screenshot (352).png",
+      "assets/PwrComponentImages/PWR Buttons/Screenshot (353).png",
+      "assets/PwrComponentImages/PWR Buttons/Screenshot (354).png",
+      "assets/PwrComponentImages/PWR Buttons/Screenshot (355).png"
+    ] 
+}

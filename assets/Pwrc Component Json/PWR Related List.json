@@ -1,0 +1,18 @@
+{
+    "introduction":"This component is used for storing information of relatedlistview configuration.",
+    "data":{
+            "Data Source": "",
+            "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
+            "Related Object": "The list of related objects of the object that was selected while creating the new setting is showing.",
+            "Class Name": "",
+            "Icon": "The icon will display as per the given object name",
+            "Record to display": "Enter the number of records. Entered number of records will display on the page after the page loading and for more records scroller will apply.The default value for records to display is 10.",
+            "Information Source": "Select information source. Whatever source is selected, information will show in the same way. The default value for the information source is Fields.",
+            "Field Source": "Select the field source. According to the Field Source, further sections will open.",
+            "Display Configuration": "Select display type. Information will display in column and row format if selected table view. Information will display in card format if the display type is card view.",
+            "Action Configuration": "The number of actions is displayed created in the Action object. Users can control the Actions to be shown on the List View.",
+            "Filter Criteria": "Add filter criteria to see the records in filtered format. Add custom filters to make the List View more specific.",
+            "Filter Condition": "Enter filter condition For e.g. 1 AND 2, 1 OR 2 etc.",
+            "Filter Preview ": "Filter condition preview can see with Field name, operator and given value."
+          }
+}    

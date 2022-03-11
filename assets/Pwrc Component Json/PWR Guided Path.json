@@ -1,0 +1,21 @@
+{
+    "introduction":"This component is used for storing information of guided path configuration.",
+    "data":
+    {
+            "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
+            "Picklist fields": "The list of picklist fields for the selected object is listed. Select the picklist field on which the guided path will configure.(Supported data type is Picklist)",
+            "Guided Path Type": "Select any guided path type.",
+            "Preview record": "A list of all the records of the object that has been selected. Select a record to see a preview of the component.",
+            "Static Guided Path": "Select the picklist option. Add the guidance message in the instruction.",
+            "Dynamic Guided Path": "In dynamic guided path, select picklist option, add fields and add description/guidance message in instructions for picklist value so user can fill the details before proceeding to next stage. ",
+            "Picklist Value": "Select picklist value on which need to give guidance message for proceeding further.",
+            "Instruction": "Add the description/guidance message. The description will display on the record page under the picklist option.",
+            "Add/Update Fields": "Click on Add/Update fields. Field selector will open where users can select the required field and optional field by checking on the checkbox as per their requirement."
+    },
+    "images": [
+        "assets/PwrComponentImages/PWR Guided Path/Screenshot (360).png",
+        "assets/PwrComponentImages/PWR Guided Path/Screenshot (361).png",
+        "assets/PwrComponentImages/PWR Guided Path/Screenshot (362).png",
+        "assets/PwrComponentImages/PWR Guided Path/Screenshot (363).png"
+    ] 
+}  

@@ -1,0 +1,19 @@
+{
+    "introduction":"This component is used for storing information of field set configuration.",
+    "data":
+       {
+            "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
+            "Record": "Users can select the records from the options which are the fields of either the current record or the parent objects record or the grand-parent record.",
+            "Field Source": "Select any Field Source. According to the selected Field Source further, sections will display. ",
+            "Mode": "Select the edit mode for allowing the editing to fields. Select the view mode for not allowing to edit the fields.",
+            "Columns": "The value must be at least one and at most 6. The same number of columns will be displayed as the value entered.",
+            "Density": "The display density setting determines how dense content is displayed and where field labels are located.",
+            "Icon": "The icon will display as per the given object name."
+        },
+    "images": [
+            "assets/PwrComponentImages/PWR Field Set/Screenshot (356).png",
+            "assets/PwrComponentImages/PWR Field Set/Screenshot (357).png",
+            "assets/PwrComponentImages/PWR Field Set/Screenshot (358).png",
+            "assets/PwrComponentImages/PWR Field Set/Screenshot (359).png"
+        ] 
+}  
