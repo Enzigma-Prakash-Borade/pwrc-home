@@ -1,0 +1,16 @@
+{
+    "introduction":"Orektic PWR App Builder, which can be used by application development companies and enterprises to build business apps effectively, quickly and cost effectively.",
+    "data":
+         {
+            "test": "test",
+            "test1": "test1",
+            "test2": "test2"
+          },
+    "images": [
+        "assets/PwrComponentImages/Welcome/Screenshot (354).png",
+        "assets/PwrComponentImages/Welcome/Screenshot (355).png"
+      ],
+    "youtube_link":"https://www.youtube.com/channel/UC8aYP8mc7YQMmWFA4-9Pdig",
+    "document_link":"assets/PDF Documents/ComponentDocumentation.pdf"
+
+}    

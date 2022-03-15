@@ -1,0 +1,13 @@
+{
+    "introduction":"PWR Button are used for calling any actions on the Lightning UI. PWR buttons can be placed anywhere on the Lightning Pages. It looks like the button group in Salesforce. The advantage of using PWR Buttons is that it can be placed anywhere in the Pages and so it is easily accessible.",
+    "data":
+         {
+            "test": "test",
+            "test1": "test1",
+            "test2": "test2"
+          },
+    "images": [
+      "assets/PwrComponentImages/PWR Buttons/Button1.PNG",
+      "assets/PwrComponentImages/PWR Buttons/Button2.PNG"
+    ] 
+}

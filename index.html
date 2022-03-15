@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <head>
+    <link rel="stylesheet" href="assets/styles/salesforce-lightning-design-system.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script>
+    <script src="homePage.js"></script>
+    <link href="homePage.css" rel="stylesheet">
+  </head>
+  <body onload="handleOnLoad()">
+    <div class="slds-border_top slds-border_bottom slds-border_left slds-border_right slds-theme_default">
+        <!--header section-->
+        <div class="slds-box slds-box_medium slds-theme_shade">
+            <div class="slds-clearfix">
+                <p class="slds-float_left slds-p-right_small ">
+                    <img src="assets/images/pwrcicon.png"  style="width: 50px; height:40px;">
+                </p>
+                <p class="slds-text-heading_large slds-p-top_medium slds-float_left">PWR Components 2.0</p>
+            </div>
+        </div>
+      
+        <!--Main Body Section-->
+        <div class="slds-grid ">
+            <!--Vertical Collapsable Sidebar Section-->
+            <!--Pinned SideBar-->
+           <div class="slds-col slds-size_3-of-12" id="showSidebar" onmouseleave="handleCollapsedSidebar()"><!--onmouseleave={handleCollapsedSidebar}-->
+                <div class="slds-grid slds-m-vertical_small slds-m-left_medium">
+                    <div class="slds-col slds-size_10-of-12"> 
+                        <div class="slds-p-around_large">
+                            <input class="slds-p-vertical_small" style="width:250px;" list="lstComponents"  id="componentName" name="componentName" value="Welcome" onchange="handleComponentChange()"/>
+                            <datalist id="lstComponents">
+                            </datalist>
+                            <div class="slds-m-top_xx-large slds-p-top_xx-large" style="font-weight: bold;" id="Components">
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="slds-col slds-size_2-of-12 slds-p-top_x-large"> 
+                        <div id="PinSidebar" onclick="handlePinSidebar()">
+                            <img src="assets/icons/utility/pin_60.png" alt="pin" style="width:25px;height:25px;">
+                        </div>
+                        <div id="PinnedSidebar"  onclick="handlePinnedSidebar()">
+                            <img src="assets/icons/utility/pinned_60.png" alt="pinned" style="width:25px;height:25px;">
+                        </div>
+                     </div>
+                </div>
+            </div> 
+            <!--Collapsed SideBar-->
+           <div class="slds-col slds-size_1-of-12" id="collapsedSidebar">
+                    <div class="slds-m-horizontal_medium slds-m-vertical_xx-large slds-p-bottom_xx-large slds-align_absolute-center" > 
+                        <img src="assets/icons/utility/rows_60.png" onclick="handlePinnedSidebar()" alt="rows" style="width:35px;height:35px;">
+                    </div>
+                    <div class="slds-m-vertical_xx-large slds-p-vertical_xx-large slds-m-left_small"> 
+                        <Strong><span><h5>List of</h5></span><span><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Components</h5></span></Strong> 
+                    </div>
+                    <p class="slds-p-vertical_xxx-small"></p>
+                    <div class="slds-m-vertical_xx-large slds-p-vertical_xx-large slds-m-left_small"> 
+                        <Strong><span><h5>List of</h5></span><span><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Components</h5></span></Strong>
+                    </div>
+                    <p class="slds-p-vertical_xxx-small"></p>
+                    <div class="slds-m-vertical_xx-large slds-p-vertical_xx-large slds-m-left_small"> 
+                        <Strong><span><h5>List of</h5></span><span><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Components</h5></span></Strong> 
+                    </div>
+            </div>
+            <!--Main Section-->
+                <div id="mainSection"><!--onclick={handleCollapsedSidebar}--><!--slds-col slds-size_9-of-12-->
+                    <div class="slds-box slds-m-vertical_small">
+                        <div class="container-fluid">
+                            <div class="card">
+                            <div class="card-header"><Strong><p class="slds-text-heading_medium slds-float_left slds-p-top_small">Introduction</p></Strong></div>
+                            <div class="card-body"><p id="introduction" class="slds-text-align_left slds-m-left_x-small"></p></div> 
+                            </div>
+                        </div>
+                        <div class="container-fluid slds-m-top_medium" >
+                            <div class="card">
+                            <div class="card-header"><Strong><p class="slds-text-heading_medium slds-float_left slds-p-top_small">Videos and Screenshot</p></Strong></div>
+                            <div class="card-body">
+
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                    </ol>
+                                
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner">
+                                    </div>
+                                
+                                    <!-- Left and right controls -->
+                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                
+                                <div class="slds-clearfix slds-m-top_xx-large">
+                                    <div class="slds-grid slds-p-left_small">
+                                        <div class="slds-col slds-size_3-of-12">
+                                            <p class="slds-text-align_left slds-p-left_small">For Any additional help, please refer the youtube videos</p>
+                                        </div>
+                                        <div class="slds-col slds-size_1-of-12">
+                                            <a id="youtubeLink" class="slds-float_left" href="" target="_blank">
+                                                <img src="assets/icons/utility/video_60.png" alt="rows" style="width:30px;height:30px;">
+                                            </a>
+                                        </div>
+                                        <div class="slds-col slds-size_4-of-12"></div>
+                                        <div class="slds-col slds-size_3-of-12">
+                                            <p class="slds-text-align_left slds-p-left_small">For Any additional help, please refer the documentation</p>
+                                        </div>
+                                        <div class="slds-col slds-size_1-of-12">
+                                            <a id="componentDocumentation" class="slds-float_left" href={componentDocumentation} target="_blank">
+                                                <img src="assets/icons/utility/page_60.png" alt="rows" style="width:30px;height:30px;">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div> 
+                            </div>
+                        </div>
+                        <div class="container-fluid slds-m-top_medium">
+                            <div class="card">
+                            <div class="card-header"><Strong><p class="slds-text-heading_medium slds-float_left slds-p-top_small">Configuration</p></Strong></div>
+                            <div class="card-body">
+                                <table id="datatable" class="display" width="100%"></table>
+                            </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--Additional Detail Section-->
+        <div class=slds-border_top><!--class="slds-box borderBox"-->
+            <div class="slds-box slds-box_x-small slds-theme_shade slds-m-top_small">
+                <div class="slds-clearfix">
+                    <strong><p class="slds-text-heading_medium slds-float_left slds-p-top_small">Additional Details</p></strong>
+                </div>
+            </div>
+            <div class="slds-m-top_medium">
+                <div class="slds-grid">
+                    <div class="slds-col slds-size_2-of-12"></div>
+                    <div class="slds-col slds-size_1-of-12" id="designer">
+                        <a class="slds-align_absolute-center" href="javascript:window.location=createSfdcBaseDesignerURL();" target="_blank">
+                            <span class="slds-icon_container slds-icon-custom-custom64" title="Description of icon when needed">
+                                <img src="assets/icons/custom/custom64_60.png" alt="custom64" style="width:35px;height:35px;">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <a class="slds-align_absolute-center" href="https://mail.google.com/mail/?view=cm&fs=1&to=Sales@orektic.com&su=Custom Request - PWRC" target="_blank">
+                            <span class="slds-icon_container slds-icon-custom-custom14" title="Description of icon when needed">
+                                <img src="assets/icons/custom/custom14_60.png" alt="custom64" style="width:35px;height:35px;">
+                            </span>
+                        </a>
+                        </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <span onclick={handleclick} class="slds-align_absolute-center">
+                            <span class="slds-icon_container slds-icon-custom-custom55" title="Description of icon when needed">
+                                <img src="assets/icons/custom/custom55_60.png" alt="custom64" style="width:35px;height:35px;">
+                            </span>
+                        </span>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <a class="slds-align_absolute-center" href="https://mail.google.com/mail/?view=cm&fs=1&to=Sales@orektic.com&su=PWRC Support" target="_blank">
+                            <span class="slds-icon_container slds-icon-custom-custom23" title="Description of icon when needed">
+                                <img src="assets/icons/custom/custom23_60.png" alt="custom64" style="width:35px;height:35px;">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <a class="slds-align_absolute-center" href="https://www.orektic.com" target="_blank">
+                            <span class="slds-icon_container slds-icon-custom-custom23" title="Description of icon when needed">
+                                <img src="assets/icons/custom/custom112_60.png" alt="custom112" style="width:35px;height:35px;">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <a class="slds-align_absolute-center" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000GA9DqUAL" target="_blank">
+                            <span class="slds-icon_container slds-icon-standard-apps" title="Description of icon when needed">
+                                <img src="assets/icons/standard/apps_60.png" alt="apps" style="width:35px;height:35px;">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <a class="slds-align_absolute-center" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000GA9DqUAL" target="_blank">
+                            <span class="slds-icon_container slds-icon-standard-poll" title="Description of icon when needed">
+                                <img src="assets/icons/standard/poll_60.png" alt="poll" style="width:35px;height:35px;">
+                            </span>
+                        </a>
+                    </div>
+                    <span class="slds-col slds-size_1-of-12">
+                        <a class="slds-align_absolute-center slds-p-around_none slds-m-around_none" href="https://www.orektic.com" target="_blank">
+                            <span class="slds-icon_container slds-icon-custom-custom68" title="Description of icon when needed">
+                                <img src="assets/icons/custom/custom68_60.png" alt="custom68" style="width:35px;height:35px;">
+                            </span>
+                        </a>
+                    </span>
+                </div>
+                <div class="slds-grid">
+                    <div class="slds-col slds-size_2-of-12"></div>
+                    <div class="slds-col slds-size_1-of-12" id="designerlabel">
+                        <p class="slds-align_absolute-center">Designer</p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <p class="">Custom Request</p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <p class="slds-align_absolute-center">Help/FAQ</p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <p class="slds-align_absolute-center">Email</p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <p class="slds-align_absolute-center">Support Chat</p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <p class="slds-align_absolute-center slds-text-align_center">Other Apps</p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <p class="slds-align_absolute-center">Rate PWRC</p>
+                    </div>
+                    <div class="slds-col slds-size_1-of-12">
+                        <p class="slds-align_absolute-center">Website</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div> 
+
+
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.borderBox {
+  border: 1px solid #484848 !important;
+}
+h5 {
+  transform: rotate(90deg);
+  transform-origin: top center;
+}
+.show {
+  display: block;
+}
+
+label {
+  font-family: "Fira Sans", sans-serif;
+}
+body {
+  font-size:13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
