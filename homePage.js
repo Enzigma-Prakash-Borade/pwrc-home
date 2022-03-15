@@ -49,14 +49,22 @@ fetch("./assets/Pwrc Component Json/Welcome.json")
     $('.carousel-indicators > li').first().addClass('active');
     
     // set the options to the datalist
-    for (var i = 0; i < collection.length; i++) {
+    let components = document.getElementById("Components");
+    for (let i = 0; i < collection.length; i++) {
         options += '<option value="' + collection[i] + '" />';
-        document.getElementById("components").innerHTML += collection[i] + "<br>"+"<br>"+"<br>"; 
+        let p = document.createElement('p');
+        p.innerHTML = collection[i] + "<br>"+"<br>"+"<br>";
+        let IdName ="Component"+i;
+        p.setAttribute("id", IdName);
+        p.setAttribute("onclick", "getComponentName(this.id)");
+        p.className = "aClassName";
+        p.style.color = 'blue';
+        components.appendChild(p);
     }
     document.getElementById('lstComponents').innerHTML = options;
 
+
     let currentURL = window.location.href; 
-    console.log('currentURL=>' + currentURL);
     let designer = document.getElementById("designer");
     let designerlabel = document.getElementById("designerlabel");
     if (currentURL.includes("force.com")) {
@@ -69,19 +77,17 @@ fetch("./assets/Pwrc Component Json/Welcome.json")
     }
   });
 
-  function createSfdcBaseDesignerURL()
-  {
+  function getComponentName(clicked_id) {
+    let componentName = document.getElementById(clicked_id).innerHTML.replace('<br><br><br>','');
+    handleIntroductionAndData(componentName);
+    } 
+
+  function createSfdcBaseDesignerURL(){
     sfdcBaseURL = window.location.origin+"/lightning/n/pwr__Designer";
-    console.log('sfdcBaseURL==>' + sfdcBaseURL);
     return sfdcBaseURL;
   }
 
-function handleClickTest(ctrl) {
-  var TextInsideLi = document.getElementById('components').innerHTML; //ctrl.getElementsByTagName('p')[0].innerHTML;
-  console.log('components==>' + TextInsideLi);
-  console.log('ctrl==>' + ctrl);
-}
-  
+ 
 function handleOnLoad() {
     var showSidebar = document.getElementById("showSidebar");
     var collapsedSidebar = document.getElementById("collapsedSidebar");
@@ -95,15 +101,11 @@ function handleOnLoad() {
 
 function handleComponentChange() {
   let componentName = document.getElementById("componentName").value;
-  handleIntroductionAndData(componentName);
+  console.log('componentName==>' + componentName);
+  if (componentName) {
+    handleIntroductionAndData(componentName);
+  }
 }
-
-// function myfunction(ctrl) {
-
-//   var TextInsideLi = document.getElementById('components').innerHTML; //ctrl.getElementsByTagName('p')[0].innerHTML;
-//   console.log('components==>' + TextInsideLi);
-//   console.log('ctrl==>' + ctrl);
-// }
 
 
 function handleIntroductionAndData(componentName) {

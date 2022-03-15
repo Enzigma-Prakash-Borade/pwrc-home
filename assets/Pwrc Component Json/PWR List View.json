@@ -1,5 +1,5 @@
 {
-    "introduction":"This component is used for storing information of listview configuration",
+    "introduction":"PWR ListView is an easily configurable component which can be used to display the ListView on Home Page and Record Page. The ListView uses the Standard ListView and the User can configure it in order to display it on the Lightning UI by adding extra fieldsto the existing ListView. PWR ListView also allow users to create new ListView in case if there no existing ListView exists for an object. PWR ListView is Mobile compatible for the App Page. ",
     "data":{
             "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
             "Icon": "The icon will display as per the given object name.",
@@ -11,5 +11,9 @@
             "Filter Criteria": "Add filter criteria to see the records in filtered format. Add custom filters to make the List View more specific.",
             "Filter Condition": "Enter filter condition For e.g. 1 AND 2, 1 OR 2 etc.",
             "Filter Preview ": "Filter condition preview can see with Field name, operator, and given value."
-          }
+          },
+      "images": [
+            "assets/PwrComponentImages/PWR List View/ListView1.PNG",
+            "assets/PwrComponentImages/PWR List View/ListView2.PNG"
+          ]
 }  

@@ -1,5 +1,5 @@
 {
-    "introduction":"This component is used for storing information of relatedlistview configuration.",
+    "introduction":"PWR Related List component can show the data directly derived from the related object like standard related list provided by Salesforce and is also capable of showing customized data derived from classes on the Lightning UI.",
     "data":{
             "Data Source": "",
             "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
@@ -14,5 +14,9 @@
             "Filter Criteria": "Add filter criteria to see the records in filtered format. Add custom filters to make the List View more specific.",
             "Filter Condition": "Enter filter condition For e.g. 1 AND 2, 1 OR 2 etc.",
             "Filter Preview ": "Filter condition preview can see with Field name, operator and given value."
-          }
+          },
+    "images": [
+            "assets/PwrComponentImages/PWR Related List/RelatedList1.PNG",
+            "assets/PwrComponentImages/PWR Related List/RelatedList2.PNG"
+    ]
 }    
