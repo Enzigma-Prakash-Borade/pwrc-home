@@ -1,0 +1,23 @@
+{
+    "introduction":"This component is used for storing information of rating configuration.",
+    "data":{
+            "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
+            "Field": "Select the field. In this field, the user will submit the values for the rating.(Supports only Number type)",
+            "Preview record": "A list of all the records of the object that has been selected. Select a record to see a preview of the component.",
+            "Rating icon": "Select any one icon. A selected icon will appear on the record page. The default value for the rating icon is Star.",
+            "Icon Size": "Select one size. A rating icon will appear in the selected size. The default value for the rating size is Small.",
+            "# of icons": "Enter the number for icons. How many numbers you enter, the same number of icons will be visible. The default value is 5. (The number of icons should not be less than 1 and more than 10)",
+            "Min Rating": "Enter the value in the Min rating. The value specifies starting of a range. The default value for Min rating is 1",
+            "Max Rating": " Enter the value in the Max rating. The value specifies the ending of a range. The default value for the Max rating is 10. ",
+            "Space between icons": "Select the distance between two icons for ratings. The selected distance will appear between the rating icons. The default value for Space between icons is Small.",
+            "Color Scheme": "Select any color scheme. In a static color scheme case, the rating component can see only in one color, and in the case of the dynamic color scheme, one detailed section will open. The default value for the color scheme is Static.",
+            "Default Color": "Select any color for rating icons. In a static color scheme, only one color will display for the rating icons. In a dynamic color scheme, if ratings are given outside the dynamic color scheme range, the default color is displayed for rating icons. The default color is Red.",
+            "Dynamic Color Scheme": "Give a specific range for ratings. If the rating is given from that range, then the color selected for this range will appear on the record page.",
+            "Min Rating(Dynamic Color Scheme)": " Enter Minimum value for the specified range.",
+            "Default Color(Dynamic Color Scheme)": "Select the color for the specified range.",
+            "Label Configuration": "Configure the label for the rating component from this section.",
+            "Label Position": "Select label position. The rating component label will appear as the selected position. The default value for the Label position is Top.",
+            "Label Style": "Select label style. The rating component label will appear as a selected style. The default value for Label style is Normal.",
+            "Label Color": "Select label color. The rating component label will appear in a selected color. The default color for Label color is Red."
+          }
+}    
