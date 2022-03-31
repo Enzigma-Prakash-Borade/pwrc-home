@@ -19,7 +19,13 @@
         "Current Date": "Either select a field where you can add the date or it will consider the 'Todays' date."
         },
     "images": [
-            "assets/PwrComponentImages/PWR Progress Bar/Step1.PNG",
-            "assets/PwrComponentImages/PWR Progress Bar/Step2.PNG"
+            "assets/PwrComponentImages/PWR Progress Bar/Step1.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step2.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step3.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step4.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step5.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step6.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step7.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step8.png"
     ] 
 }  

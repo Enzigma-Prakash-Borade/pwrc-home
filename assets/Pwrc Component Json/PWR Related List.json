@@ -16,7 +16,13 @@
             "Filter Preview ": "Filter condition preview can see with Field name, operator and given value."
           },
     "images": [
-            "assets/PwrComponentImages/PWR Related List/RelatedList1.PNG",
-            "assets/PwrComponentImages/PWR Related List/RelatedList2.PNG"
+            "assets/PwrComponentImages/PWR Related List/Step1.png",
+            "assets/PwrComponentImages/PWR Related List/Step2.png",
+            "assets/PwrComponentImages/PWR Related List/Step3.png",
+            "assets/PwrComponentImages/PWR Related List/Step4.png",
+            "assets/PwrComponentImages/PWR Related List/Step5.png",
+            "assets/PwrComponentImages/PWR Related List/Step6.png",
+            "assets/PwrComponentImages/PWR Related List/Step7.png",
+            "assets/PwrComponentImages/PWR Related List/Step8.png"
     ]
 }    

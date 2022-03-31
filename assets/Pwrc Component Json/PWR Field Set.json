@@ -11,7 +11,13 @@
             "Icon": "The icon will display as per the given object name."
         },
     "images": [
-            "assets/PwrComponentImages/PWR Field Set/FieldSet1.PNG",
-            "assets/PwrComponentImages/PWR Field Set/FieldSet2.PNG"
+            "assets/PwrComponentImages/PWR Field Set/Step1.png",
+            "assets/PwrComponentImages/PWR Field Set/Step2.png",
+            "assets/PwrComponentImages/PWR Field Set/Step3.png",
+            "assets/PwrComponentImages/PWR Field Set/Step4.png",
+            "assets/PwrComponentImages/PWR Field Set/Step5.png",
+            "assets/PwrComponentImages/PWR Field Set/Step6.png",
+            "assets/PwrComponentImages/PWR Field Set/Step7.png",
+            "assets/PwrComponentImages/PWR Field Set/Step8.png"
             ] 
 }  

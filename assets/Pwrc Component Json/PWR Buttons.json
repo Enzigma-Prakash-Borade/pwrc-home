@@ -7,7 +7,13 @@
             "test2": "test2"
           },
     "images": [
-      "assets/PwrComponentImages/PWR Buttons/Button1.PNG",
-      "assets/PwrComponentImages/PWR Buttons/Button2.PNG"
+      "assets/PwrComponentImages/PWR Buttons/Step1.png",
+      "assets/PwrComponentImages/PWR Buttons/Step2.png",
+      "assets/PwrComponentImages/PWR Buttons/Step3.png",
+      "assets/PwrComponentImages/PWR Buttons/Step4.png",
+      "assets/PwrComponentImages/PWR Buttons/Step5.png",
+      "assets/PwrComponentImages/PWR Buttons/Step6.png",
+      "assets/PwrComponentImages/PWR Buttons/Step7.png",
+      "assets/PwrComponentImages/PWR Buttons/Step8.png"
     ] 
 }

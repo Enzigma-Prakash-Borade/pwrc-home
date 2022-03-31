@@ -13,7 +13,13 @@
             "Filter Preview ": "Filter condition preview can see with Field name, operator, and given value."
           },
       "images": [
-            "assets/PwrComponentImages/PWR List View/ListView1.PNG",
-            "assets/PwrComponentImages/PWR List View/ListView2.PNG"
+            "assets/PwrComponentImages/PWR List View/Step1.png",
+            "assets/PwrComponentImages/PWR List View/Step2.png",
+            "assets/PwrComponentImages/PWR List View/Step3.png",
+            "assets/PwrComponentImages/PWR List View/Step4.png",
+            "assets/PwrComponentImages/PWR List View/Step5.png",
+            "assets/PwrComponentImages/PWR List View/Step6.png",
+            "assets/PwrComponentImages/PWR List View/Step7.png",
+            "assets/PwrComponentImages/PWR List View/Step8.png"
           ]
 }  

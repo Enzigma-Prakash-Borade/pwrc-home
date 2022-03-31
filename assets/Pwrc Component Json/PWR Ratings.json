@@ -19,5 +19,15 @@
             "Label Position": "Select label position. The rating component label will appear as the selected position. The default value for the Label position is Top.",
             "Label Style": "Select label style. The rating component label will appear as a selected style. The default value for Label style is Normal.",
             "Label Color": "Select label color. The rating component label will appear in a selected color. The default color for Label color is Red."
-          }
+          },
+    "images": [
+            "assets/PwrComponentImages/PWR Ratings/Step1.png",
+            "assets/PwrComponentImages/PWR Ratings/Step2.png",
+            "assets/PwrComponentImages/PWR Ratings/Step3.png",
+            "assets/PwrComponentImages/PWR Ratings/Step4.png",
+            "assets/PwrComponentImages/PWR Ratings/Step5.png",
+            "assets/PwrComponentImages/PWR Ratings/Step6.png",
+            "assets/PwrComponentImages/PWR Ratings/Step7.png",
+            "assets/PwrComponentImages/PWR Ratings/Step8.png"
+    ]
 }    

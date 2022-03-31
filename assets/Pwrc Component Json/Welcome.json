@@ -7,8 +7,14 @@
             "test2": "test2"
           },
     "images": [
-        "assets/PwrComponentImages/Welcome/Screenshot (354).png",
-        "assets/PwrComponentImages/Welcome/Screenshot (355).png"
+        "assets/PwrComponentImages/Welcome/Step1.png",
+        "assets/PwrComponentImages/Welcome/Step2.png",
+        "assets/PwrComponentImages/Welcome/Step3.png",
+        "assets/PwrComponentImages/Welcome/Step4.png",
+        "assets/PwrComponentImages/Welcome/Step5.png",
+        "assets/PwrComponentImages/Welcome/Step6.png",
+        "assets/PwrComponentImages/Welcome/Step7.png",
+        "assets/PwrComponentImages/Welcome/Step8.png"
       ],
     "youtube_link":"https://www.youtube.com/channel/UC8aYP8mc7YQMmWFA4-9Pdig",
     "document_link":"assets/PDF Documents/ComponentDocumentation.pdf"

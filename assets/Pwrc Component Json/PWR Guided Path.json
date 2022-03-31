@@ -13,9 +13,13 @@
             "Add/Update Fields": "Click on Add/Update fields. Field selector will open where users can select the required field and optional field by checking on the checkbox as per their requirement."
     },
     "images": [
-        "assets/PwrComponentImages/PWR Guided Path/Screenshot (360).png",
-        "assets/PwrComponentImages/PWR Guided Path/Screenshot (361).png",
-        "assets/PwrComponentImages/PWR Guided Path/Screenshot (362).png",
-        "assets/PwrComponentImages/PWR Guided Path/Screenshot (363).png"
+        "assets/PwrComponentImages/PWR Guided Path/Step1.png",
+        "assets/PwrComponentImages/PWR Guided Path/Step2.png",
+        "assets/PwrComponentImages/PWR Guided Path/Step3.png",
+        "assets/PwrComponentImages/PWR Guided Path/Step4.png",
+        "assets/PwrComponentImages/PWR Guided Path/Step5.png",
+        "assets/PwrComponentImages/PWR Guided Path/Step6.png",
+        "assets/PwrComponentImages/PWR Guided Path/Step7.png",
+        "assets/PwrComponentImages/PWR Guided Path/Step8.png"
     ] 
 }  
