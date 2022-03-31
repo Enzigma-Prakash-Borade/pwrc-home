@@ -101,7 +101,6 @@ function handleOnLoad() {
 
 function handleComponentChange() {
   let componentName = document.getElementById("componentName").value;
-  console.log('componentName==>' + componentName);
   if (componentName) {
     handleIntroductionAndData(componentName);
   }

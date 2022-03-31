@@ -1,0 +1,23 @@
+{
+    "introduction":"PWR Field Set component uses the standard Field Set provided by salesforce but the PWR Field Set extendsthe functionality of the Salesforce as an existing Field Set used in some Visualforce Page can be reused by the PWR Field Set show fields on the Lightning UI and as well as add extra fields to it.",
+    "data":
+       {
+            "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
+            "Record": "Users can select the records from the options which are the fields of either the current record or the parent objects record or the grand-parent record.",
+            "Field Source": "Select any Field Source. According to the selected Field Source further, sections will display. ",
+            "Mode": "Select the edit mode for allowing the editing to fields. Select the view mode for not allowing to edit the fields.",
+            "Columns": "The value must be at least one and at most 6. The same number of columns will be displayed as the value entered.",
+            "Density": "The display density setting determines how dense content is displayed and where field labels are located.",
+            "Icon": "The icon will display as per the given object name."
+        },
+    "images": [
+            "assets/PwrComponentImages/PWR Field Set/Step1.png",
+            "assets/PwrComponentImages/PWR Field Set/Step2.png",
+            "assets/PwrComponentImages/PWR Field Set/Step3.png",
+            "assets/PwrComponentImages/PWR Field Set/Step4.png",
+            "assets/PwrComponentImages/PWR Field Set/Step5.png",
+            "assets/PwrComponentImages/PWR Field Set/Step6.png",
+            "assets/PwrComponentImages/PWR Field Set/Step7.png",
+            "assets/PwrComponentImages/PWR Field Set/Step8.png"
+            ] 
+}  

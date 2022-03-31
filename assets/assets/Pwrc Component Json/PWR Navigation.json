@@ -1,0 +1,18 @@
+{
+    "introduction":"This component is used for storing information of Navigation configuration.",
+    "data":{
+           "test": "test",
+            "test1": "test1",
+            "test2": "test2"
+        },
+    "images": [
+            "assets/PwrComponentImages/Welcome/Step1.png",
+            "assets/PwrComponentImages/Welcome/Step2.png",
+            "assets/PwrComponentImages/Welcome/Step3.png",
+            "assets/PwrComponentImages/Welcome/Step4.png",
+            "assets/PwrComponentImages/Welcome/Step5.png",
+            "assets/PwrComponentImages/Welcome/Step6.png",
+            "assets/PwrComponentImages/Welcome/Step7.png",
+            "assets/PwrComponentImages/Welcome/Step8.png"
+          ]
+}  

@@ -1,0 +1,31 @@
+{
+    "introduction":"PWR Progress Bar component helps salesforce users to get a graphical representation to show the progress of the work. PWR Progress Bar can be configured to show/hide the Percentage of the progress, on hovering over the component it shows the current percentage.",
+    "data":{
+        "Object": "Object name has reflected in read-only format. The object on which the user is configuring the component will appear.",
+        "Progress Bar Type": "Select the Type of the Progress Bar. Date Progress Bar is used to measure the progress of the work between the range of the dates given. The number Progress Bar is used to measure the progress of the work between the range of number fields.",
+        "Input type": "Select any Input type. Select value as an input type if a user wants to give some specific range, and if want customization in range then selects field name as Input type.",
+        "Start value": "Select the field or enter any static value. The value in the selected field specifies starting of a range. The default value is 0.",
+        "Current value": "Select the field or enter any static value and this field cannot be left empty.",
+        "End Value": "Select the field or enter any static value. The value in the selected field specifies ending of a range. The default value is 100.",
+        "Preview record": "A list of all the records of the object that has been selected. Select a record to see a preview of the component.",
+        "Progress bar thickness": "Select the size of the progress bar. Valid values are x-small, small, medium, and large. The default value is medium.",
+        "Progress bar color": "Select a color. The progress bar will appear in the same color.",
+        "Show value": "Check the checkbox and see the given values on the progress bar component.",
+        "Show percentage": "Check the checkbox and see the percentage of progress on the progress bar component.",
+        "Label": " Label for progress bar component.",
+        "Date Format": "Select any date format. The date will show in the selected format on the progress bar.",
+        "Start date": "Select the field. The date in the selected field specifies starting of a range, and this field cannot be left empty. (Supports Date, Date/Time data types)",
+        "End Date": "Select the field. The date in the selected field specifies the ending of a range, and this field cannot be left empty. (Supports Date, Date/Time data types)",
+        "Current Date": "Either select a field where you can add the date or it will consider the 'Todays' date."
+        },
+    "images": [
+            "assets/PwrComponentImages/PWR Progress Bar/Step1.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step2.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step3.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step4.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step5.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step6.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step7.png",
+            "assets/PwrComponentImages/PWR Progress Bar/Step8.png"
+    ] 
+}  
